@@ -1,6 +1,41 @@
-# SQuAD Benchmark Suite
+# LLM Reasoning Benchmark Research 🧠
 
-Набор тестов для оценки производительности языковых моделей на датасете SQuAD v1.1.
+[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://vakovalskii.github.io/reasoning-benchmark-research/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+
+**Comprehensive study of 5 reasoning approaches on SQuAD dataset**
+
+Набор тестов для оценки производительности языковых моделей на датасете SQuAD v1.1 с фокусом на влияние reasoning (рассуждений) на точность и скорость.
+
+📖 **[Read Full Research on GitHub Pages →](https://vakovalskii.github.io/reasoning-benchmark-research/)**
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Clone repository
+git clone git@github.com:vakovalskii/reasoning-benchmark-research.git
+cd reasoning-benchmark-research
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure API credentials
+cp config.py.example config.py
+# Edit config.py with your API key and endpoint
+
+# Download SQuAD dataset
+python download_squad.py
+
+# Run benchmarks
+cd without_reasoning && python test_squad_without_reasoning.py
+cd ../with_structured_output && python test_squad_with_so.py
+cd ../with_two_step_so && python test_squad_two_step_so.py
+cd ../with_react && python test_squad_with_reasoning.py
+cd ../with_react_two_tools && python test_squad_react_two_tools.py
+```
 
 ---
 
