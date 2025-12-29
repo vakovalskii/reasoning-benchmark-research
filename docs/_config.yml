@@ -1,0 +1,7 @@
+theme: jekyll-theme-cayman
+title: "LLM Reasoning Benchmark Research"
+description: "Comprehensive study of 5 reasoning approaches on SQuAD dataset: comparing accuracy, speed, and implementation patterns"
+show_downloads: true
+github:
+  repository_url: https://github.com/vakovalskii/reasoning-benchmark-research
+

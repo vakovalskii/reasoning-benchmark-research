@@ -1,0 +1,19 @@
+================================================================================
+SQUAD WITH REACT TWO TOOLS TEST SUMMARY
+================================================================================
+
+Model: qwen3-30b-a3b-instruct-2507
+Workers: 30
+Timestamp: 2025-12-28T17:38:23.222522
+
+Total Questions: 10570
+Correct Answers: 9859
+Incorrect Answers: 711
+Errors: 0
+
+Accuracy: 93.27%
+
+Total Time: 3189.49s
+Avg Response Time: 9.04s
+Questions/Second: 3.31
+================================================================================

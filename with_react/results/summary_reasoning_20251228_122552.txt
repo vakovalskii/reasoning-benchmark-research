@@ -1,0 +1,20 @@
+================================================================================
+SQUAD WITH REASONING SCHEMA TEST SUMMARY
+================================================================================
+
+Model: qwen3-30b-a3b-instruct-2507
+Workers: 30
+Timestamp: 2025-12-28T12:25:52.434759
+
+Total Questions: 10570
+Correct Answers: 9722
+Incorrect Answers: 848
+Errors: 0
+
+Accuracy: 91.98%
+Avg Reasoning Steps: 1.0
+
+Total Time: 3061.17s
+Avg Response Time: 8.68s
+Questions/Second: 3.45
+================================================================================

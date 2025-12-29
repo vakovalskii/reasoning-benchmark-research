@@ -1,0 +1,20 @@
+================================================================================
+SQUAD PARALLEL TEST SUMMARY
+================================================================================
+
+Model: qwen3-30b-a3b-instruct-2507
+Workers: 30
+Timestamp: 2025-12-28T12:34:52
+
+Total Questions: 10570
+Correct Answers: 9446
+Incorrect Answers: 1124
+Errors: 0
+
+Accuracy: 89.37%
+
+Total Time: 704.67s (11.7 min)
+Avg Response Time: 2.00s
+Questions/Second: 15.00
+================================================================================
+

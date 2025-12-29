@@ -1,0 +1,75 @@
+================================================================================
+ERROR ANALYSIS REPORT - ALL APPROACHES
+================================================================================
+
+
+Without Reasoning
+----------------------------------------
+Accuracy: 89.37%
+Total Errors: 1124
+
+Error Categories:
+  - Too Long (Explanation): 503 (44.8%)
+  - Partial Match: 413 (36.7%)
+  - Wrong Answer: 192 (17.1%)
+  - Technical Error: 12 (1.1%)
+  - Number Format (word vs digit): 2 (0.2%)
+  - Empty/Too Short: 2 (0.2%)
+
+
+Single-Step SO
+----------------------------------------
+Accuracy: 90.98%
+Total Errors: 953
+
+Error Categories:
+  - Wrong Answer: 414 (43.4%)
+  - Partial Match: 386 (40.5%)
+  - Number Format (word vs digit): 55 (5.8%)
+  - Empty/Too Short: 50 (5.2%)
+  - Too Long (Explanation): 46 (4.8%)
+  - Punctuation Difference: 2 (0.2%)
+
+
+Two-Step SO
+----------------------------------------
+Accuracy: 93.47%
+Total Errors: 690
+
+Error Categories:
+  - Partial Match: 309 (44.8%)
+  - Wrong Answer: 231 (33.5%)
+  - Empty/Too Short: 79 (11.4%)
+  - Too Long (Explanation): 60 (8.7%)
+  - Technical Error: 9 (1.3%)
+  - Punctuation Difference: 1 (0.1%)
+  - Number Format (word vs digit): 1 (0.1%)
+
+
+ReAct (1 Tool)
+----------------------------------------
+Accuracy: 91.98%
+Total Errors: 848
+
+Error Categories:
+  - Partial Match: 433 (51.1%)
+  - Wrong Answer: 268 (31.6%)
+  - Too Long (Explanation): 92 (10.8%)
+  - Empty/Too Short: 50 (5.9%)
+  - Technical Error: 4 (0.5%)
+  - Number Format (word vs digit): 1 (0.1%)
+
+
+ReAct (2 Tools)
+----------------------------------------
+Accuracy: 93.27%
+Total Errors: 711
+
+Error Categories:
+  - Partial Match: 320 (45.0%)
+  - Wrong Answer: 298 (41.9%)
+  - Empty/Too Short: 73 (10.3%)
+  - Too Long (Explanation): 16 (2.3%)
+  - Number Format (word vs digit): 3 (0.4%)
+  - Punctuation Difference: 1 (0.1%)
+

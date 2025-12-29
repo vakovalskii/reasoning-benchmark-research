@@ -1,0 +1,19 @@
+================================================================================
+SQUAD WITH STRUCTURED OUTPUT (SO) TEST SUMMARY
+================================================================================
+
+Model: qwen3-30b-a3b-instruct-2507
+Workers: 30
+Timestamp: 2025-12-28T13:26:02.696085
+
+Total Questions: 10570
+Correct Answers: 9617
+Incorrect Answers: 953
+Errors: 0
+
+Accuracy: 90.98%
+
+Total Time: 2285.73s
+Avg Response Time: 6.42s
+Questions/Second: 4.62
+================================================================================

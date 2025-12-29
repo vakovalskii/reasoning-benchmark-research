@@ -1,0 +1,19 @@
+================================================================================
+SQUAD WITH TWO-STEP SO TEST SUMMARY
+================================================================================
+
+Model: qwen3-30b-a3b-instruct-2507
+Workers: 30
+Timestamp: 2025-12-28T16:20:30.551771
+
+Total Questions: 10570
+Correct Answers: 9880
+Incorrect Answers: 690
+Errors: 0
+
+Accuracy: 93.47%
+
+Total Time: 4002.95s
+Avg Response Time: 11.35s
+Questions/Second: 2.64
+================================================================================
